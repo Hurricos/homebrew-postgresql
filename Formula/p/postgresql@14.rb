@@ -1,4 +1,5 @@
 class PostgresqlAT14 < Formula
+  # Useless change to the hash of the file.
   desc "Object-relational database system"
   homepage "https://www.postgresql.org/"
   url "https://ftp.postgresql.org/pub/source/v14.18/postgresql-14.18.tar.bz2"
