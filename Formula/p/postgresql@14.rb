@@ -11,13 +11,10 @@ class PostgresqlAT14 < Formula
   end
 
   bottle do
-    sha256 arm64_sequoia: "9cdd37849beb706374d3ab14ebbbe24faae4d1a5d522e003b1404c705b7e0ffd"
-    sha256 arm64_sonoma:  "40b6d7576b8833748a3664fb43d67d8c0bffe68f21a5cdbb219109b20e111115"
-    sha256 arm64_ventura: "34aba0f06f3d43762f477927a514d372459f88c2175a7c0e740b3e1baf621247"
-    sha256 sonoma:        "fae9107044e20a44a7169eedf090cc6482cb01f262aee7cd574ce4ee62039fc9"
-    sha256 ventura:       "3422679db5af8c0495cc7ac5e4378f62190b7531d48962d7b9708210fda41889"
-    sha256 arm64_linux:   "3ae3bef2cf0f72b4e8b46bc59515df03a322a746cd067d69a745b3aee8589cc3"
-    sha256 x86_64_linux:  "9e83804e685fafcacecb289b580985ead1996e08db17bb7c6838cf9176bb8cdb"
+    root_url "https://downloads.pcc.com/homebrew/"
+    rebuild 1
+    sha256 arm64_sequoia: "a8f6b2c737a692a406ddc3553ab77a1888a5d19422124a1142bf533de5c54bae"
+    sha256 sequoia:       "15a7692996b23fa0e0209288e6d1f9c64c7f8e11e4d86e9e60face6862c0605c"
   end
 
   # https://www.postgresql.org/support/versioning/
